@@ -4,6 +4,7 @@ document.getElementById('feni-donate')
 
 
     const addMoney2 = getInputFieldValueById('feni-input');
+    alert('suscessful')
     console.log('add money with parameter', addMoney2);
 
 

@@ -4,6 +4,7 @@ document.getElementById('Quata-donate')
 
 
     const addMoney3 = getInputFieldValueById('Quata-input');
+    alert('suscessful')
     console.log('add money with parameter', addMoney3);
 
 

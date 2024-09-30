@@ -4,6 +4,7 @@ document.getElementById('noakhali-donate',)
 
 
     const addMoney = getInputFieldValueById('noakhali-input');
+    alert('suscessful')
     console.log('add money with parameter', addMoney);
 
 
