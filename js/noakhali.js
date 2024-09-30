@@ -1,4 +1,4 @@
-document.getElementById('noakhali-donate')
+document.getElementById('noakhali-donate',)
 .addEventListener('click', function (event) {
     event.preventDefault();
 
@@ -10,7 +10,7 @@ document.getElementById('noakhali-donate')
 
 
     if(isNumber = Number){
-    const balance = getTextFieldValueById('noakhali-amound');
+    const balance = getTextFieldValueById('noakhali-amound',);
     const newbalance = balance + addMoney;
     console.log(balance)
 
@@ -29,7 +29,7 @@ document.getElementById('noakhali-donate')
 
     // add to transaction history
         const p = document.createElement('p');
-        p.innerText = `Donete: ${addMoney} TK. ` ;
+        p.innerText = `Donate for Noakhali: ${addMoney} TK. ` ;
         console.log(p);
 
         document.getElementById('transaction-container').appendChild(p);
